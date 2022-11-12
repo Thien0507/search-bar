@@ -15,13 +15,13 @@ const actions = {
       noItem[0].style.display = "none";
     }
     if (isRomve) {
-      for (let i = 0; i < ListItem.length; i++) {
+      ListItem.forEach((value, i) => {
         if ((i + 1) % 2 == 0) {
           removeItems[i].parentElement.classList.add("even-item");
         } else {
           removeItems[i].parentElement.classList.remove("even-item");
         }
-      }
+      });
     }
   },
   add() {
