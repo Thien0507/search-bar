@@ -64,3 +64,11 @@ h3 {
     max-width: 700px;
   }
 }
+
+.even-item {
+  background-color: red;
+}
+
+.odd-item {
+  background-color: white;
+}
